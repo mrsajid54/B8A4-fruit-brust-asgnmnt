@@ -85,15 +85,57 @@
 
 
 
-    <main class="mt-52">
+    <main >
         <!-- banner  -->
+        <!-- slider -->
+        <section class="flex justify-center" >
+            <div class="carousel w-[1440px] ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    
+                     
+                   
+                  <img class="" src="/images/banner1.png" class="w-full" />
+                  
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img class="" src="images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="images/banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+
+
+
        
 
 
 
         <!-- deal of the day  -->
         <section class=" ">
-            <div class="flex justify-around  gap-28 pt-10 pb-10">
+            <div class=" flex justify-around  gap-28 pt-10 pb-10">
                 <!-- col 1 -->
                 <div class="space-y-5 justify-start">
                     <h2 class="font-extrabold text-5xl ">Deal of the day</h2>
@@ -237,6 +279,8 @@
            </div>
             
          </section>
+
+         <!-- team section  -->
          
          <section  class="mx-40 mb-20 justify-center">
             <div class="min-w-full h-[690px] hero min-h" style="background-image: url(images/team.png);">
